@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "BoardGamesAPI.Controllers.GameController",
+    "Method": "Get",
+    "RelativePath": "api/Game",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BoardGamesAPI.Controllers.GameController",
+    "Method": "Post",
+    "RelativePath": "api/Game",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addGame",
+        "Type": "BoardGamesAPI.Model.Games",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BoardGamesAPI.Controllers.GameController",
+    "Method": "Get",
+    "RelativePath": "api/Game/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BoardGamesAPI.Controllers.GameController",
+    "Method": "Put",
+    "RelativePath": "api/Game/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "g",
+        "Type": "BoardGamesAPI.Model.Games",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BoardGamesAPI.Controllers.GameController",
+    "Method": "Delete",
+    "RelativePath": "api/Game/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
