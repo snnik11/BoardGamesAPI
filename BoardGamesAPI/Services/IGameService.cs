@@ -13,5 +13,7 @@ namespace BoardGamesAPI.Services
         Task<Games> UpdateGame(int id, Games g);
 
         Task<bool> DeleteGame(int id);
+
+        Task<IEnumerable<Games>> AddMockData();
     }
 }

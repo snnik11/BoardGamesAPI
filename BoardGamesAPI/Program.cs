@@ -1,12 +1,31 @@
 using AutoMapper;
 using BoardGamesAPI.Data;
+using BoardGamesAPI.Middleware;
 using BoardGamesAPI.Profile;
 using BoardGamesAPI.Services;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 //builder.Services.AddAutoMapper(typeof(MappingProfile));
+
+//builder.Services.AddAuthentication(opt =>
+//{
+//    opt.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+//    opt.DefaultChallengeScheme = OpenIdConnectDefaults.AuthenticationScheme;
+//}).AddCookie().AddOpenIdConnect(OptionsBuilderConfigurationExtensions =>
+//{
+//    var oauthSettings = Con
+//})
+
+builder.Services.AddCors(opt =>
+{
+    opt.AddPolicy("AllowReactApp", policyDetails =>
+    {
+        policyDetails.WithOrigins("http://localhost:3000").AllowAnyHeader().AllowAnyMethod();
+    });
+});
 
 
 var mappedConfig = new MapperConfiguration(mc =>
@@ -18,7 +37,7 @@ IMapper mapper = mappedConfig.CreateMapper();
 
 builder.Services.AddTransient<IGameService, GameService>();
 
-builder.Services.AddDbContext<GameDbContext>(db => db.UseSqlServer(builder.Configuration.GetConnectionString("GamesConnectionString")), ServiceLifetime.Singleton);
+builder.Services.AddDbContext<GameDbContext>(db => db.UseSqlServer(builder.Configuration.GetConnectionString("GamesConnectionString")), ServiceLifetime.Scoped);
 
 // Add services to the container.
 
@@ -36,7 +55,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
 app.UseHttpsRedirection();
+
+app.UseCors("AllowReactApp");
+
+app.UseMiddleware<RequestLoggingMiddleware>();
 
 app.UseAuthorization();
 

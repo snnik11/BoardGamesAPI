@@ -2,6 +2,7 @@
 using BoardGamesAPI.Dtos;
 using BoardGamesAPI.Model;
 using Microsoft.EntityFrameworkCore;
+using System.Collections;
 
 namespace BoardGamesAPI.Services
 {
@@ -16,16 +17,39 @@ namespace BoardGamesAPI.Services
             _db = db;
         }
 
+        public async Task<IEnumerable<Games>> AddMockData()
+        {
+            for(int i =0; i<=100;i++)
+            {
+                _db.Games.Add(new Games { Name = "Game "+ i, Price = 10.0 * i});
+            }
+
+            await _db.SaveChangesAsync();
+            return await _db.Games.ToListAsync();
+        }
+
+        //public  Task<IEnumerable<Games>> AddPagination(int page = 1, int pageSize = 5)
+        //{
+        //    var totalCount =  _db.Games.Count();
+           
+
+        //    var total =  (int)Math.Ceiling((decimal)totalCount / pageSize);
+
+        //    var productPerPage =  _db.Games.Skip((page - 1) * pageSize).Take(pageSize).ToList();
+        //    return  productPerPage;
+
+        //}
+
         public async Task<List<Games>> GetAllGames()
         {
-            return await _db.Games.ToListAsync();
+            return await _db.Games.AsNoTracking().ToListAsync();
           
         }
 
         //fetch data from the db
-        public async Task<Games> GetGameById(int id)
+        public async Task<Games> GetGameById(int gameid)
         {
-            return await  _db.Games.FirstOrDefaultAsync(x => x.GameId == id);
+            return await _db.Games.AsNoTracking().FirstOrDefaultAsync(x => x.GameId == gameid);
         }
 
 
@@ -71,9 +95,9 @@ namespace BoardGamesAPI.Services
 
         }
 
-        public async Task<bool> DeleteGame(int id)
+        public async Task<bool> DeleteGame(int gameid)
         {
-            var checkId = await _db.Games.FirstOrDefaultAsync(x => x.GameId == id);
+            var checkId = await _db.Games.FirstOrDefaultAsync(x => x.GameId == gameid);
 
             if(checkId != null)
             {
@@ -84,7 +108,7 @@ namespace BoardGamesAPI.Services
                 var saveChangesToDb = await _db.SaveChangesAsync();
 
                 //returns true
-                return saveChangesToDb >0;
+                return saveChangesToDb > 0;
             }
             return false;
         }

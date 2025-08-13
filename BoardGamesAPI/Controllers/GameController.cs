@@ -1,11 +1,12 @@
 ﻿using BoardGamesAPI.Model;
 using BoardGamesAPI.Services;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace BoardGamesAPI.Controllers
 {
     [Route("api/[controller]")]
-    [Ap]
+    [ApiController]
     public class GameController : Controller
     {
         private readonly IGameService _gameService;
@@ -15,6 +16,20 @@ namespace BoardGamesAPI.Controllers
             _gameService = gameService;
         }
 
+        [HttpGet("mock-data")]
+        public async Task<IEnumerable<Games>> GetData()
+        {
+            var gameData = await _gameService.AddMockData();
+            return gameData;
+        }
+
+        //[HttpGet("paginated")]
+
+        //public async Task<IEnumerable<Games>> GetPagination()
+        //{
+        //    var gameP = await _gameService.A
+        //}
+
         [HttpGet]
         public async Task<IActionResult> Get()
         {
@@ -23,10 +38,10 @@ namespace BoardGamesAPI.Controllers
             return Ok(getAllGames);
         }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> Get(int id)
+        [HttpGet("{gameId}")]
+        public async Task<IActionResult> GetProductById(int gameId)
         {
-            var getGame = _gameService.GetGameById(id);
+            var getGame = await _gameService.GetGameById(gameId);
             if(getGame == null)
             {
                 return NotFound();
@@ -39,7 +54,7 @@ namespace BoardGamesAPI.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] Games addGame)
         {
-            var createGame = _gameService.CreateGame(addGame);
+            var createGame = await _gameService.CreateGame(addGame);
 
             if(createGame == null)
             {
@@ -50,17 +65,17 @@ namespace BoardGamesAPI.Controllers
                 //anonymous object creation
                     message = "new game created in the database",
                 //to do : need to fix the id - it is automatically generating random number
-                id = createGame!.Id
+                id = createGame!.GameId
                 }
             );
         }
 
 
         [HttpPut]
-        [Route("{id}")]
-        public async Task<IActionResult> Put([FromRoute] int id, [FromBody] Games g)
+        [Route("{gameId}")]
+        public async Task<IActionResult> Put([FromRoute] int gameId, [FromBody] Games g)
         {
-            var gameToUpdate = await _gameService.UpdateGame(id, g);
+            var gameToUpdate = await _gameService.UpdateGame(gameId, g);
 
             if(gameToUpdate == null)
             {
@@ -75,10 +90,10 @@ namespace BoardGamesAPI.Controllers
         }
 
         [HttpDelete]
-        [Route("{id}")]
-        public async Task<IActionResult> Delete(int id)
+        [Route("{gameId}")]
+        public async Task<IActionResult> Delete([FromRoute] int gameId)
         {
-            var deleteGame = _gameService.DeleteGame(id);
+            var deleteGame = await _gameService.DeleteGame(gameId);
 
             if(deleteGame == null)
             {
@@ -88,7 +103,7 @@ namespace BoardGamesAPI.Controllers
             return Ok(new
             {
                 message = "Game delete successfully",
-                GameId = id
+                GameId = gameId
             });
         }
 

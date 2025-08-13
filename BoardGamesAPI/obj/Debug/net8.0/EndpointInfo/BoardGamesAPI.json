@@ -5,6 +5,44 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Game/mock-data": {
+      "get": {
+        "tags": [
+          "Game"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Games"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Games"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Games"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/Game": {
       "get": {
         "tags": [
@@ -46,14 +84,14 @@
         }
       }
     },
-    "/api/Game/{id}": {
+    "/api/Game/{gameId}": {
       "get": {
         "tags": [
           "Game"
         ],
         "parameters": [
           {
-            "name": "id",
+            "name": "gameId",
             "in": "path",
             "required": true,
             "schema": {
@@ -74,7 +112,7 @@
         ],
         "parameters": [
           {
-            "name": "id",
+            "name": "gameId",
             "in": "path",
             "required": true,
             "schema": {
@@ -114,7 +152,7 @@
         ],
         "parameters": [
           {
-            "name": "id",
+            "name": "gameId",
             "in": "path",
             "required": true,
             "schema": {
