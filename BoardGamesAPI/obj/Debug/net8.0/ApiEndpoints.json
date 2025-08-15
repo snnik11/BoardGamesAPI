@@ -55,8 +55,8 @@
         "IsRequired": true
       },
       {
-        "Name": "g",
-        "Type": "BoardGamesAPI.Model.Games",
+        "Name": "updateDto",
+        "Type": "BoardGamesAPI.Dtos.UpdateGameDto",
         "IsRequired": true
       }
     ],
@@ -80,22 +80,43 @@
   },
   {
     "ContainingType": "BoardGamesAPI.Controllers.GameController",
-    "Method": "GetData",
-    "RelativePath": "api/Game/mock-data",
+    "Method": "CurrentDb",
+    "RelativePath": "api/Game/current-db",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BoardGamesAPI.Controllers.GameController",
+    "Method": "GetGames",
+    "RelativePath": "api/Game/games",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[BoardGamesAPI.Model.Games, BoardGamesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
-    ]
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BoardGamesAPI.Controllers.GameController",
+    "Method": "TestDb",
+    "RelativePath": "api/Game/test-db",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BoardGamesAPI.Migrations
 {
     [DbContext(typeof(GameDbContext))]
-    [Migration("20250801025207_first-migration")]
-    partial class firstmigration
+    [Migration("20250815045021_AddedPagination")]
+    partial class AddedPagination
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

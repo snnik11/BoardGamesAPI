@@ -7,32 +7,52 @@
       "RelativeMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|solutionrelative:boardgamesapi\\middleware\\requestloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|c:\\nikita\\github_projects\\boardgamesapi\\boardgamesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|solutionrelative:boardgamesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|c:\\nikita\\github_projects\\boardgamesapi\\boardgamesapi\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|solutionrelative:boardgamesapi\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|c:\\nikita\\github_projects\\boardgamesapi\\boardgamesapi\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|solutionrelative:boardgamesapi\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|c:\\nikita\\github_projects\\boardgamesapi\\boardgamesapi\\services\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|solutionrelative:boardgamesapi\\services\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|c:\\nikita\\github_projects\\boardgamesapi\\boardgamesapi\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|solutionrelative:boardgamesapi\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|c:\\nikita\\github_projects\\boardgamesapi\\boardgamesapi\\services\\pagedlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|solutionrelative:boardgamesapi\\services\\pagedlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|c:\\nikita\\github_projects\\boardgamesapi\\boardgamesapi\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|solutionrelative:boardgamesapi\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|c:\\nikita\\github_projects\\boardgamesapi\\boardgamesapi\\dtos\\updategamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|solutionrelative:boardgamesapi\\dtos\\updategamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|c:\\nikita\\github_projects\\boardgamesapi\\boardgamesapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|solutionrelative:boardgamesapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|c:\\nikita\\github_projects\\boardgamesapi\\boardgamesapi\\model\\pageparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|solutionrelative:boardgamesapi\\model\\pageparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|c:\\nikita\\github_projects\\boardgamesapi\\boardgamesapi\\data\\gamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|solutionrelative:boardgamesapi\\data\\gamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|c:\\nikita\\github_projects\\boardgamesapi\\boardgamesapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|solutionrelative:boardgamesapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|c:\\nikita\\github_projects\\boardgamesapi\\boardgamesapi\\model\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|solutionrelative:boardgamesapi\\model\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|c:\\nikita\\github_projects\\boardgamesapi\\boardgamesapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|solutionrelative:boardgamesapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|c:\\nikita\\github_projects\\boardgamesapi\\boardgamesapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|solutionrelative:boardgamesapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|c:\\nikita\\github_projects\\boardgamesapi\\boardgamesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|solutionrelative:boardgamesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|c:\\nikita\\github_projects\\boardgamesapi\\boardgamesapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|solutionrelative:boardgamesapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|c:\\nikita\\github_projects\\boardgamesapi\\boardgamesapi\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,8 +63,8 @@
       "RelativeMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|solutionrelative:boardgamesapi\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|c:\\nikita\\github_projects\\boardgamesapi\\boardgamesapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|solutionrelative:boardgamesapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|c:\\nikita\\github_projects\\boardgamesapi\\boardgamesapi\\migrations\\20250815045021_addedpagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F596D6A8-D19D-4B6E-832A-DFBC9854B502}|BoardGamesAPI\\BoardGamesAPI.csproj|solutionrelative:boardgamesapi\\migrations\\20250815045021_addedpagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,31 +74,158 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Model\\User.cs",
-              "RelativeDocumentMoniker": "BoardGamesAPI\\Model\\User.cs",
-              "ToolTip": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Model\\User.cs",
-              "RelativeToolTip": "BoardGamesAPI\\Model\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Model\\PagedResult.cs",
+              "RelativeDocumentMoniker": "BoardGamesAPI\\Model\\PagedResult.cs",
+              "ToolTip": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Model\\PagedResult.cs",
+              "RelativeToolTip": "BoardGamesAPI\\Model\\PagedResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T03:52:11.276Z"
+              "WhenOpened": "2025-08-15T02:33:47.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PagedListService.cs",
+              "DocumentMoniker": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Services\\PagedListService.cs",
+              "RelativeDocumentMoniker": "BoardGamesAPI\\Services\\PagedListService.cs",
+              "ToolTip": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Services\\PagedListService.cs",
+              "RelativeToolTip": "BoardGamesAPI\\Services\\PagedListService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwB0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T02:02:52.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PageParameters.cs",
+              "DocumentMoniker": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Model\\PageParameters.cs",
+              "RelativeDocumentMoniker": "BoardGamesAPI\\Model\\PageParameters.cs",
+              "ToolTip": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Model\\PageParameters.cs",
+              "RelativeToolTip": "BoardGamesAPI\\Model\\PageParameters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T01:58:35.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Controllers\\GameController.cs",
+              "RelativeDocumentMoniker": "BoardGamesAPI\\Controllers\\GameController.cs",
+              "ToolTip": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Controllers\\GameController.cs",
+              "RelativeToolTip": "BoardGamesAPI\\Controllers\\GameController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAwwHIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T08:08:41.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IGameService.cs",
+              "DocumentMoniker": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Services\\IGameService.cs",
+              "RelativeDocumentMoniker": "BoardGamesAPI\\Services\\IGameService.cs",
+              "ToolTip": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Services\\IGameService.cs",
+              "RelativeToolTip": "BoardGamesAPI\\Services\\IGameService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T08:24:45.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameService.cs",
+              "DocumentMoniker": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Services\\GameService.cs",
+              "RelativeDocumentMoniker": "BoardGamesAPI\\Services\\GameService.cs",
+              "ToolTip": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Services\\GameService.cs",
+              "RelativeToolTip": "BoardGamesAPI\\Services\\GameService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAA9wHYAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T08:10:40.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RequestLoggingMiddleware.cs",
+              "DocumentMoniker": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Middleware\\RequestLoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "BoardGamesAPI\\Middleware\\RequestLoggingMiddleware.cs",
+              "ToolTip": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Middleware\\RequestLoggingMiddleware.cs",
+              "RelativeToolTip": "BoardGamesAPI\\Middleware\\RequestLoggingMiddleware.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T22:35:06.321Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "UpdateGameDto.cs",
+              "DocumentMoniker": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Dtos\\UpdateGameDto.cs",
+              "RelativeDocumentMoniker": "BoardGamesAPI\\Dtos\\UpdateGameDto.cs",
+              "ToolTip": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Dtos\\UpdateGameDto.cs",
+              "RelativeToolTip": "BoardGamesAPI\\Dtos\\UpdateGameDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T05:56:53.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "GameDbContext.cs",
               "DocumentMoniker": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Data\\GameDbContext.cs",
               "RelativeDocumentMoniker": "BoardGamesAPI\\Data\\GameDbContext.cs",
               "ToolTip": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Data\\GameDbContext.cs",
               "RelativeToolTip": "BoardGamesAPI\\Data\\GameDbContext.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAkAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T08:14:35.127Z"
+              "WhenOpened": "2025-08-15T04:34:20.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "BoardGamesAPI\\appsettings.json",
+              "ToolTip": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\appsettings.json",
+              "RelativeToolTip": "BoardGamesAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-06T07:47:21.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250815045021_AddedPagination.cs",
+              "DocumentMoniker": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Migrations\\20250815045021_AddedPagination.cs",
+              "RelativeDocumentMoniker": "BoardGamesAPI\\Migrations\\20250815045021_AddedPagination.cs",
+              "ToolTip": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Migrations\\20250815045021_AddedPagination.cs",
+              "RelativeToolTip": "BoardGamesAPI\\Migrations\\20250815045021_AddedPagination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T04:50:21.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "BoardGamesAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "BoardGamesAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T03:59:06.048Z"
             },
             {
               "$type": "Document",
@@ -94,70 +241,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GameService.cs",
-              "DocumentMoniker": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Services\\GameService.cs",
-              "RelativeDocumentMoniker": "BoardGamesAPI\\Services\\GameService.cs",
-              "ToolTip": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Services\\GameService.cs",
-              "RelativeToolTip": "BoardGamesAPI\\Services\\GameService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T08:10:40.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameController.cs",
-              "DocumentMoniker": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Controllers\\GameController.cs",
-              "RelativeDocumentMoniker": "BoardGamesAPI\\Controllers\\GameController.cs",
-              "ToolTip": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Controllers\\GameController.cs*",
-              "RelativeToolTip": "BoardGamesAPI\\Controllers\\GameController.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAAAzwBkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T08:08:41.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IGameService.cs",
-              "DocumentMoniker": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Services\\IGameService.cs",
-              "RelativeDocumentMoniker": "BoardGamesAPI\\Services\\IGameService.cs",
-              "ToolTip": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Services\\IGameService.cs",
-              "RelativeToolTip": "BoardGamesAPI\\Services\\IGameService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBAAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T08:24:45.557Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Program.cs",
               "RelativeDocumentMoniker": "BoardGamesAPI\\Program.cs",
               "ToolTip": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Program.cs",
               "RelativeToolTip": "BoardGamesAPI\\Program.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T07:53:33.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T07:53:33.141Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RequestLoggingMiddleware.cs",
-              "DocumentMoniker": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Middleware\\RequestLoggingMiddleware.cs",
-              "RelativeDocumentMoniker": "BoardGamesAPI\\Middleware\\RequestLoggingMiddleware.cs",
-              "ToolTip": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Middleware\\RequestLoggingMiddleware.cs",
-              "RelativeToolTip": "BoardGamesAPI\\Middleware\\RequestLoggingMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Model\\User.cs",
+              "RelativeDocumentMoniker": "BoardGamesAPI\\Model\\User.cs",
+              "ToolTip": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Model\\User.cs",
+              "RelativeToolTip": "BoardGamesAPI\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T22:35:06.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T03:52:11.276Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Dtos\\UserDto.cs",
               "RelativeDocumentMoniker": "BoardGamesAPI\\Dtos\\UserDto.cs",
@@ -166,30 +274,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-06T03:58:00.288Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "BoardGamesAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "BoardGamesAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T03:59:06.048Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "BoardGamesAPI\\appsettings.json",
-              "ToolTip": "C:\\Nikita\\Github_Projects\\BoardGamesAPI\\BoardGamesAPI\\appsettings.json",
-              "RelativeToolTip": "BoardGamesAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-06T07:47:21.288Z"
             }
           ]
         }

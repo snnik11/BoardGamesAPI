@@ -9,8 +9,8 @@ namespace BoardGamesAPI.Dtos
         [Required]
         public int GameId { get; set; }
 
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
-        public double Price { get; set; }
+        public double? Price { get; set; } //allow nullable value to avoid change in the value
     }
 }

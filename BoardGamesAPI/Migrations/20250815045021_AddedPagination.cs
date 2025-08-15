@@ -7,7 +7,7 @@
 namespace BoardGamesAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class firstmigration : Migration
+    public partial class AddedPagination : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

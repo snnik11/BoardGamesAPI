@@ -16,7 +16,8 @@
         {
             _logger.LogInformation($"Request : {context.Request.Method} {context.Request.Path}");
 
-            await _next(context);
+            await _next(context); //for continuation of middleware pipeline
+            //controller doesnt get called without this 
         }
 
     }

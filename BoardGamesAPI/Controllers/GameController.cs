@@ -1,4 +1,5 @@
-﻿using BoardGamesAPI.Model;
+﻿using BoardGamesAPI.Dtos;
+using BoardGamesAPI.Model;
 using BoardGamesAPI.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
@@ -16,12 +17,12 @@ namespace BoardGamesAPI.Controllers
             _gameService = gameService;
         }
 
-        [HttpGet("mock-data")]
-        public async Task<IEnumerable<Games>> GetData()
-        {
-            var gameData = await _gameService.AddMockData();
-            return gameData;
-        }
+        //[HttpGet("mock-data")]
+        //public async Task<IEnumerable<Games>> GetData()
+        //{
+        //    var gameData = await _gameService.AddMockData();
+        //    return gameData;
+        //}
 
         //[HttpGet("paginated")]
 
@@ -30,12 +31,38 @@ namespace BoardGamesAPI.Controllers
         //    var gameP = await _gameService.A
         //}
 
+
+
+        [HttpGet("test-db")]
+        public async Task<IActionResult> TestDb()
+        {
+            var checkDb = await _gameService.TestDb();
+            return Ok(checkDb);
+        }
+
+        [HttpGet("current-db")]
+        public async Task<IActionResult> CurrentDb()
+        {
+            var cDb = await _gameService.GetCurrentDb();
+
+            return Ok($"Db name {cDb}");
+        }
+
         [HttpGet]
         public async Task<IActionResult> Get()
         {
             var getAllGames = await _gameService.GetAllGames();
 
             return Ok(getAllGames);
+        }
+
+
+        [HttpGet("games")]
+        public async Task<IActionResult> GetGames([FromQuery] PageParameters pP)
+        {
+            var pagedGames = await _gameService.GetGamesPaginated(pP.PageNumber, pP.PageSize);
+                       
+            return Ok(pagedGames);
         }
 
         [HttpGet("{gameId}")]
@@ -73,9 +100,9 @@ namespace BoardGamesAPI.Controllers
 
         [HttpPut]
         [Route("{gameId}")]
-        public async Task<IActionResult> Put([FromRoute] int gameId, [FromBody] Games g)
+        public async Task<IActionResult> Put([FromRoute] int gameId, [FromBody] UpdateGameDto updateDto)
         {
-            var gameToUpdate = await _gameService.UpdateGame(gameId, g);
+            var gameToUpdate = await _gameService.UpdateGame(gameId, updateDto);
 
             if(gameToUpdate == null)
             {
@@ -95,7 +122,7 @@ namespace BoardGamesAPI.Controllers
         {
             var deleteGame = await _gameService.DeleteGame(gameId);
 
-            if(deleteGame == null)
+            if(deleteGame == false)
             {
                 return NotFound();
             }

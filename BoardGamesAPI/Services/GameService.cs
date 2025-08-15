@@ -17,9 +17,20 @@ namespace BoardGamesAPI.Services
             _db = db;
         }
 
+        public async Task<int> TestDb()
+        {
+            return await _db.Games.CountAsync();            
+        }
+
+        public async Task<string> GetCurrentDb()
+        {
+            return _db.Database.GetDbConnection().Database;
+
+        }
+
         public async Task<IEnumerable<Games>> AddMockData()
         {
-            for(int i =0; i<=100;i++)
+            for(int i =0; i<=10;i++)
             {
                 _db.Games.Add(new Games { Name = "Game "+ i, Price = 10.0 * i});
             }
@@ -44,6 +55,24 @@ namespace BoardGamesAPI.Services
         {
             return await _db.Games.AsNoTracking().ToListAsync();
           
+        }
+
+        public async Task<PagedResult<Games>> GetGamesPaginated(int pageNumber, int pageSize)
+        {
+            var totalCount = await _db.Games.CountAsync();
+
+            var games = await _db.Games.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToListAsync();
+
+
+            return new PagedResult<Games>
+            {
+                Data = games,
+                TotalCount = totalCount,
+                PageNumber = pageNumber,
+                PageSize = pageSize,
+                TotalPages = (int)Math.Ceiling((double)totalCount / pageSize)
+
+            };
         }
 
         //fetch data from the db
@@ -73,15 +102,23 @@ namespace BoardGamesAPI.Services
         }
             
 
-        public async Task<Games> UpdateGame(int id, Games g)
+        public async Task<Games> UpdateGame(int id, UpdateGameDto updateDto)
         {
             //check if id exists
             var checkId = await _db.Games.FirstOrDefaultAsync(x => x.GameId == id);
 
             if(checkId != null)
             {
-                checkId.Name = g.Name;
-                checkId.Price = g.Price;
+                if(!string.IsNullOrEmpty(updateDto.Name))
+                {
+                    checkId.Name = updateDto.Name;
+                }
+                
+                if(updateDto.Price.HasValue && updateDto.Price.Value >0)
+                {
+                    checkId.Price = updateDto.Price.Value; //to retain double 
+                }
+              
 
                 var saveChangesToDb = await _db.SaveChangesAsync();
 
